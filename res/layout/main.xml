@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:personattr="http://schemas.android.com/apk/res/com.example.declare_styleable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.declare_styleable.PersonView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        personattr:name="@string/person_name" 
+        personattr:weight ="fat"
+        personattr:adult ="false"
+        personattr:textSize="@dimen/text_size"/>
+
+</RelativeLayout>
